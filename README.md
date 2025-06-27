@@ -3,5 +3,5 @@ This repository contains the simulation and analysis of a novel solar-powered St
 
 Technologies: Python • NumPy • Matplotlib • Vortex Tube • Thermodynamic Modeling • Solar Stirling Engine 
 
-## 📈 Objectives
+## 📈 Objective
 Simulation and performance analysis of a solar-powered Stirling-vortex cooling hybrid system
