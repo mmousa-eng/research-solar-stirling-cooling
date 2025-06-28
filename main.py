@@ -1,32 +1,32 @@
-import os
-import constants
-from vortex_correlation import calculate_vortex_correlation
-from solar_stirling_system import SolarStirlingSystem
-from performance_plots import plot_performance
+from performance_plots import plot_I_vs_P_by_wind, plot_I_vs_P_by_Tamb
+from performance_plots import plot_Pe_vs_DTc
+from performance_plots import plot_I_vs_CC_by_Pe
+from performance_plots import plot_I_vs_CC_by_mue
+from performance_plots import plot_I_vs_CC_by_Ta
+from performance_plots import plot_I_vs_CC_by_V
+from performance_plots import plot_I_vs_eta_tot_by_Ta, plot_I_vs_eta_tot_by_V
 
-def main():
-    # Create results directory if it doesn't exist
-    if not os.path.exists('results'):
-        os.makedirs('results')
+# I vs P
+plot_I_vs_P_by_wind()
+plot_I_vs_P_by_Tamb()
 
-    # Initialize the solar Stirling system
-    system = SolarStirlingSystem()
+# Pe vs DTc
+plot_Pe_vs_DTc()
 
-    # Run the simulation
-    power_output, compressor_load, cooling_capacity = system.run_simulation()
+# I vs CC - Pes
+plot_I_vs_CC_by_Pe()
 
-    # Calculate vortex correlation
-    vortex_correlation = calculate_vortex_correlation()
+# I vs CC - mues
+plot_I_vs_CC_by_mue()
 
-    # Save results to a file
-    with open('results/simulation_results.txt', 'w') as f:
-        f.write(f'Power Output: {power_output}\n')
-        f.write(f'Compressor Load: {compressor_load}\n')
-        f.write(f'Cooling Capacity: {cooling_capacity}\n')
-        f.write(f'Vortex Correlation: {vortex_correlation}\n')
+# I vs CC - by Ta
+plot_I_vs_CC_by_Ta()
 
-    # Generate performance plots
-    plot_performance()
+# I vs CC - by V
+plot_I_vs_CC_by_V()
 
-if __name__ == '__main__':
-    main()
+# I vs eta_tot - by Ta
+plot_I_vs_eta_tot_by_Ta()
+
+# I vs eta_tot - by V
+plot_I_vs_eta_tot_by_V()
