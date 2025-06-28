@@ -6,7 +6,8 @@ Technologies: Python • NumPy • Matplotlib • Thermodynamic Modeling • Sol
 ## 📈 Objective
 Simulation and performance analysis of solar-powered Stirling-vortex cooling hybrid system
 
-
+## 📁 Project Structure
+```bash
 research-solar-stirling-cooling/
 │
 ├── main.py
@@ -34,3 +35,4 @@ research-solar-stirling-cooling/
 │
 ├── README.md
 │   # Project overview, instructions, and documentation.
+```
