@@ -20,3 +20,4 @@ research-solar-stirling-cooling/
 ```
 
 ## 📊 Results
+Simulation results demonstrate that the proposed solar-powered Stirling-vortex hybrid system is both feasible and reliable under real-world conditions. The model shows that the system can deliver cooling capacity comparable to a 0.5-ton split AC unit, powered entirely by solar thermal energy. 
