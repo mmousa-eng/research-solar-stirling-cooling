@@ -14,7 +14,7 @@ research-solar-stirling-cooling/
 ├── constants.py              # # Defines physical and thermodynamic constants used across modules
 ├── vortex_correlation.py     # Implements the vortex tube empirical correlation
 ├── performance_plots.py      # Contains plotting functions
-├── cooling_system.py         # Contains the SolarStirlingSystem class, which models and runs the main system simulation.
+├── cooling_system.py         # Handles the full system simulation
 ├── README.md                 # Project overview   
 └── .gitignore   
 ```
