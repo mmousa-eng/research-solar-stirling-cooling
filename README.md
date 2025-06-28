@@ -18,3 +18,5 @@ research-solar-stirling-cooling/
 ├── README.md                 # Project overview   
 └── .gitignore   
 ```
+
+## 📊 Results
