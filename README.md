@@ -11,7 +11,7 @@ Simulation and performance analysis of solar-powered Stirling-vortex cooling hyb
 research-solar-stirling-cooling/
 │
 ├── main.py                   # Runs the simulation and generates performance plots
-├── constants.py              # # Defines physical and thermodynamic constants used across modules
+├── constants.py              # Defines physical and thermodynamic constants used across modules
 ├── vortex_correlation.py     # Implements the vortex tube empirical correlation
 ├── performance_plots.py      # Contains plotting functions
 ├── cooling_system.py         # Handles the full system simulation
