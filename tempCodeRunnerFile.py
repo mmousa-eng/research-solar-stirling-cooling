@@ -1,1 +1,0 @@
-# I vs CC - Ta & V
